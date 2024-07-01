@@ -2,7 +2,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 20px;
     background-color: #ddd8d8;
-
 }
 
 .completed {
@@ -13,13 +12,15 @@ body {
 h1, h2 {
     color: #070707;
 }
-h1{
+
+h1 {
     text-align: center;
 }
 
-.agregar-tarea{
-  display: flex;  
-justify-content: center;
+.agregar-tarea {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 input {
@@ -28,10 +29,24 @@ input {
 }
 
 button {
+    background-color: rgb(93, 94, 89);
     padding: 5px 10px;
     font-size: 16px;
     margin-left: 5px;
     cursor: pointer;
+}
+
+.contenedor-principal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resumen {
+    width: 30%;
+}
+
+.tabla-tareas {
+    width: 65%;
 }
 
 table {
