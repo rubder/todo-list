@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #ddd8d8;
+
+}
+
+.completed {
+    text-decoration: line-through;
+    color: rgb(252, 7, 7);
+}
+
+h1, h2 {
+    color: #070707;
+}
+h1{
+    text-align: center;
+}
+
+.agregar-tarea{
+  display: flex;  
+justify-content: center;
+}
+
+input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 16px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #645c5c;
+}

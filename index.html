@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="./assest/css/style.css">
+</head>
+<body>
+    <h1>Todo List</h1>
+    <div class="agregar-tarea">
+        <input type="text" id="taskDescription" placeholder="Descripción de la tarea">
+        <button onclick="addTask()">Agregar Tarea</button>
+    </div>
+    <div>
+        <h2>Resumen</h2>
+        <p>Total de tareas: <span id="totalTasks">0</span></p>
+        <p>Tareas realizadas: <span id="completedTasks">0</span></p>
+    </div>
+    <div>
+        <table id="taskTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Descripción</th>
+                    <th>Realizada</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="./assest/js/scrip.js"></script>
+</body>
+</html>
